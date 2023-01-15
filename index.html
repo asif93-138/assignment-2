@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G3 Architects</title>
+    <style>
+    body {
+        font-family: 'work sans', sans-serif;
+    }
+    header {
+        padding: 30px 140px;
+        background-color: #fff4e7;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .nav-title {
+        color: #131313;
+        font-weight: 800;
+        font-size: 30px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #424242;
+        font-weight: 600;
+        font-size: 12px;
+        text-align: center;
+        padding: 20px;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    #s-1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #page-heading {
+        color: #131313;
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    #section-text {
+        color: #727272;
+        font-weight: 400;
+        font-size: 12px;
+        margin: 25px;
+    }
+    .click {
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 16px;
+        background-color: #ff900e;
+        border: 0;
+        border-radius: 5px;
+    }
+    #b-img {
+        width: 100%;
+    }
+    main {
+        margin: 50px 180px;
+    }
+    #s-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 100px;
+        
+    }
+    #img-container {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        gap: 20px;
+        
+    }
+    .grid-img {
+        width: 100%;
+    }
+    #a-1 {
+        margin-left: 70px;
+    }
+
+    #s2-text {
+        color: #727272;
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    #s2-title-f1 {
+        color: #727272;
+        font-weight: 500;
+        font-family: ;
+    }
+    #s2-title-f2 {
+        color: #ff900e;
+    }
+    #arch {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .arch {
+        padding-left: 10px;
+        border-left: 5px solid #ff900e;
+    }
+    #a-2 {
+        margin-right: 80px;
+    }
+    .arch-box {
+        padding: 5px 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px #f2f2f2;
+        margin-bottom: 20px;
+    }
+    .box-title {
+        color: #131313;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .arch-img {
+        width: 50%;
+    }
+    #position {
+        padding: 30px;
+        position: relative;
+        bottom: 120px;
+        left: 430px;
+    }
+    #b-title {
+        font-weight: 800;
+        font-size: 40px;
+        margin: 0;
+    }
+    #b-text {
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0;
+    }
+    .s3-text {
+        color: #727272;
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: px;
+    }
+    .icons {
+        margin: 70px 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .block {
+        text-align: center;
+        width: 170px;
+        padding: 30px 5px 10px;
+        border: 2px solid #ffd9ad;
+        border-radius: 5px;
+    }
+    .block-title {
+        color: #424242;
+        font-weight: ;
+        font-size: 26px;
+        margin: 1px;
+    }
+    .block-text {
+        color: #727272;
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #a-3 {
+        text-align: center;
+    }
+    .sponsor {
+        justify-content: space-between;
+    }
+    .sponsor img {
+        width: 110px;
+    }
+    footer {
+        margin: 80px 180px;
+    }
+    footer p {
+        color: #727272;
+        font-wight: 700;
+        text-align: center;
+        width: auto;
+        padding-top: 20px;
+        height: 40px;
+        background-color: #fff4e7;
+    }
+    @media only screen and (max-width: 600px) {
+        header {
+            padding: 0;
+        }
+        main {
+            padding: 0;
+        }
+        footer {
+            padding: 0;
+        }
+        nav {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        li a {
+            padding: 14px;
+        }
+        #s-2 {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+        #a-1 {
+            margin: 0;
+        }
+        #img-container {
+
+            grid-template-columns: 100px 100px;
+            gap: 5px;
+        
+        }
+        #arch {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .arch-img {
+            width: 350px;
+        }
+        #a-2 {
+            margin: 0;
+        }
+
+        #position {
+            padding: 10px;
+            position: static;
+        }
+        .icons, .sponsor {
+            margin: 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .sponsor img {
+            width: auto;
+        }
+        #a-3 {
+            text-align: justify;
+        }
+        footer {
+            margin: 0;
+        }
+    }
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <nav>
+      <h2 class="nav-title">G3 Architects</h2>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Login</a></li>
+        </ul>
+      </nav>
+
+      <section id="s-1">
+        <h1 id="page-heading">Brand New <br>Group of Architects</h1>
+        <p id="section-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in <br>some form, by injected humour, or randomised words which don't look even</p>
+        <button class="click">Explore More</button>
+      </section>
+
+      <img id="b-img" src="images/banner.png" alt="">
+
+    </header>
+    <main>
+
+      <section id="s-2">
+
+        <div id="img-container">
+          <img class="grid-img" src="images/team1.png" alt="">
+          <img class="grid-img" src="images/team2.png" alt="">
+          <img class="grid-img" src="images/team3.png" alt="">
+          <img class="grid-img" src="images/team4.png" alt="">
+        </div>
+
+        <article id="a-1">
+          <h3 class="nav-title"><span id="s2-title-f1">Quick list</span> of Our <span id="s2-title-f2">Features</span></h3>
+          <p id="s2-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+          <button class="click">Explore More</button>
+        </article>
+
+      </section>
+
+      <section id="arch">
+
+        <article id="a-2">
+          <h3 class="nav-title arch">Features you will <br>love & enjoy</h3>
+          <p class="s3-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+          <div class="arch-box">
+            <h4 class="box-title">Dexktop & Mobile Version</h4>
+            <p class="s3-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+          </div>
+          <div class="arch-box">
+            <h4 class="box-title">Drag & Drop Builder</h4>
+            <p class="s3-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+          </div>
+          <div class="arch-box">
+            <h4 class="box-title">Awesome Modern Design</h4>
+            <p class="s3-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+          </div>
+          <div class="arch-box">
+            <h4 class="box-title">Super Easy to Edit</h4>
+            <p class="s3-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+          </div>
+        </article>
+
+        <img class="arch-img" src="images/architect.png" alt="">
+
+      </section>
+
+        <button id="position" class="click">
+          <h3 id="b-title">10+Year</h3>
+          <p id="b-text">Experience</p>
+        </button>
+
+      <section>
+
+        <article>
+          <h3 class="nav-title">Some Facts</h3>
+          <p class="s3-text">There are many variations of passages of Lorem Ipsum available, but <br>the majority have suffered alteration.</p>
+        </article>
+    
+        <div class="icons">
+          <div class="block">
+            <img src="images/icons/ribon.png" alt="">
+             <h4 class="block-title">54</h4>
+             <p class="block-text">Awards Winnings</p>
+          </div>
+          <div class="block">
+            <img src="images/icons/projects.png" alt="">
+             <h4 class="block-title">1458</h4>
+             <p class="block-text">Project Finished</p>
+          </div>
+          <div class="block">
+            <img src="images/icons/customers.png" alt="">
+             <h4 class="block-title">590</h4>
+             <p class="block-text">Clients Worked</p>
+          </div>
+          <div class="block">
+            <img src="images/icons/email.png" alt="">
+             <h4 class="block-title">22578</h4>
+             <p class="block-text">Email Send</p>
+          </div>
+        </div>  
+
+      </section>
+
+      <section>
+
+        <article id="a-3">
+          <h3 class="nav-title">Our Sponspors</h3>
+          <p class="s3-text">There are many variations of passages of Lorem Ipsum available, but <br>the majority have suffered alteration.</p>
+        </article>
+
+        <div class="icons sponsor">
+          <img src="images/sponsors/spotify.png" alt="">
+          <img src="images/sponsors/amazon.png" alt="">
+          <img src="images/sponsors/google.png" alt="">
+          <img src="images/sponsors/telerama.png" alt="">
+          <img src="images/sponsors/figma.png" alt="">
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+ 
+      <p>All rights reserved copyright@2023 startup landing page design</p>
+
+    </footer>
+
+  </body>
+
+</html>
